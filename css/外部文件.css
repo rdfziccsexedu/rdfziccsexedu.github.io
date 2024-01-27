@@ -1,0 +1,21 @@
+
+.meaning {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* 当屏幕宽度大于或等于 768px 时，增加页边距 */
+@media screen and (min-width: 768px) (max-width: 1023px) {
+    .meaning {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+/* 当屏幕宽度大于或等于 1024px 时，进一步增加页边距 */
+@media screen and (min-width: 1024px) {
+    .meaning {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
